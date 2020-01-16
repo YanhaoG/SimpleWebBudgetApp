@@ -156,9 +156,7 @@ body {
 }
 
 .add__btn:hover {
-
     color: #5f6caf;
-
 }
 
 .add__btn:active { transform: translateY(2px); }
@@ -239,7 +237,6 @@ h2 {
     color: #FF5049;
 }
 
-
 .item__delete {
     float: left;
 }
@@ -255,12 +252,22 @@ h2 {
     display: none;
 }
 
-.item__delete--btn:focus { outline: none; }
-.item__delete--btn:active { transform: translateY(2px); }
+.item__delete--btn:focus { 
+    outline: none; 
+}
+.item__delete--btn:active { 
+    transform: translateY(2px); 
+}
 
-.item:hover .item__delete--btn { display: block; }
-.item:hover .item__value { transform: translateX(-20px); }
-.item:hover .item__percentage { transform: translateX(-20px); }
+.item:hover .item__delete--btn { 
+    display: block; 
+}
+.item:hover .item__value { 
+    transform: translateX(-20px); 
+}
+.item:hover .item__percentage { 
+    transform: translateX(-20px); 
+}
 
 
 .unpaid {
